@@ -1,0 +1,11 @@
+{
+  "name": "team-task-manager-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build --prefix frontend && npm run build --prefix backend"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
